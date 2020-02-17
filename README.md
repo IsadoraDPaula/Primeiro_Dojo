@@ -60,14 +60,18 @@
     ```
 
 - Criando uma classe:
+    ```
     class nome_classe
         ...
-    end
+    <p style="color:blue;">end</p>
+    ```
 
 - Criando um módulo:
+    ```
     module nome_modulo
         ...
-    def
+    end
+    ```
 
     * O que são módulos: Módulos Ruby são similares a classes em relação ao fato de que também armazenam uma coleção de métodos, constantes e outras definições de módulos e classes. Entretanto, diferente das classes, você não pode criar objetos baseados em módulos nem pode criar módulos que herdam desse módulo; ao invés disso, você especifica qual funcionalidade de um módulo específico você deseja adicionar a uma classe ou a um objeto específico. Módulos permanecem sozinhos; não há hierarquia de módulos ou herança. Módulos são um bom lugar para armazenar constantes em um local centralizado.
 
