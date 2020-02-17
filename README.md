@@ -53,21 +53,21 @@
   * Variáveis de instância implementam os atributos de uma classe: @nome_variavel 
 
 - Criando uma função:
-    ```
+    ```ruby
     def nome_função
         ...
     end
     ```
 
 - Criando uma classe:
-    ```
+    ```ruby
     class nome_classe
         ...
-    <p style="color:blue;">end</p>
+    end
     ```
 
 - Criando um módulo:
-    ```
+    ```ruby
     module nome_modulo
         ...
     end
