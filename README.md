@@ -53,9 +53,11 @@
   * Variáveis de instância implementam os atributos de uma classe: @nome_variavel 
 
 - Criando uma função:
+    ```
     def nome_função
         ...
     end
+    ```
 
 - Criando uma classe:
     class nome_classe
@@ -85,6 +87,7 @@
 
 ## Mapeando os elementos
 - Existem duas formas de mapear os elementos. Uma delas é pelo uiautomatorviewer
+
 - Para startar o uiautomatorviewer tenha o android studio instalado
 - Abra o pront de comando
 - Escreva uiautomatorviewer e dê enter
