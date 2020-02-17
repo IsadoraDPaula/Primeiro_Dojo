@@ -35,7 +35,7 @@
 
 # Regras do DOJO
 - Deve ser criado um arquivo nome.feature dentro de specification que será criado o BDD com o cenário a ser automatizado
-- Exempo:
+- <b>Exemplo</b>:
     ```feature
     # language: pt
     # utf-8
@@ -55,7 +55,7 @@
 - Deve ser criado um arquivo nome_screen.rb dentro da pasta screen. Este arquivo deve conter:
     * Uma classe que possui o caminho de cada elemento da tela que será utilizado na automação
     * Essa classe deve chamar o arquivo equivalente em modules
-    * Exemplo:
+    * <b>Exemplo</b>:
     ```ruby
     require_relative '../local1/nome_objects'
 
@@ -70,7 +70,7 @@
 
 - Deve ser criado um arquivo nome_object.rb dentro da pasta modules. Este arquivo deve conter:
     * Um módulo com todas as funções que serão chamadas dentro dos steps.
-    * Exempo:
+    * <b>Exemplo</b>:
     ```ruby
     module ModulObjects
       def funcao_um
@@ -89,7 +89,7 @@
     ```
 
 - Deve ser criado um arquivo nome_steps.rb dentro de step_definitions que conterá cada linha escrita no BDD com as respectivas funções necessárias para a realização daquele step.
-- Exemplo:
+- <b>Exemplo</b>:
     ```ruby
     Dado("acao do dado") do 
       @var = Objetos.isntanciar :Classe
@@ -133,7 +133,7 @@
     end
     ```
 
-    * <b>O que são módulos <b>: Módulos Ruby são similares a classes em relação ao fato de que também armazenam uma coleção de métodos, constantes e outras definições de módulos e classes. Entretanto, diferente das classes, você não pode criar objetos baseados em módulos nem pode criar módulos que herdam desse módulo; ao invés disso, você especifica qual funcionalidade de um módulo específico você deseja adicionar a uma classe ou a um objeto específico. Módulos permanecem sozinhos; não há hierarquia de módulos ou herança. Módulos são um bom lugar para armazenar constantes em um local centralizado.
+    * <b>O que são módulos </b>: Módulos Ruby são similares a classes em relação ao fato de que também armazenam uma coleção de métodos, constantes e outras definições de módulos e classes. Entretanto, diferente das classes, você não pode criar objetos baseados em módulos nem pode criar módulos que herdam desse módulo; ao invés disso, você especifica qual funcionalidade de um módulo específico você deseja adicionar a uma classe ou a um objeto específico. Módulos permanecem sozinhos; não há hierarquia de módulos ou herança. Módulos são um bom lugar para armazenar constantes em um local centralizado.
 
     * Um dos principais objetivos do Modulo é permitir que você defina métodos cujos nomes não irão colidir com aqueles definidos em outras partes de um programa.
 
@@ -151,12 +151,13 @@
 
 ## Mapeando os elementos
 - Existem duas formas de mapear os elementos. Uma delas é pelo uiautomatorviewer
-
 - Para startar o uiautomatorviewer tenha o android studio instalado
 - Abra o pront de comando
 - Escreva uiautomatorviewer e dê enter
+![uiautomatorviewer cmd](https://user-images.githubusercontent.com/32463533/74679751-769df480-519d-11ea-88e5-3f5c36c899cf.png)
 - Quando o programa se abrir esteja com o dispositivo aberto na tela que deseja mapear e clique no icone verde no canto superior esquerdo. 
 - Você obetrá um screenshot da tela mostrando as informações de cada elemento presente naquela tela
+![uiautomatorviewer](https://user-images.githubusercontent.com/32463533/74679771-861d3d80-519d-11ea-8a73-04e11e22c58a.gif)
 
 ## Fontes
 - https://medium.com/@rogeriozambon/escopo-de-vari%C3%A1veis-do-ruby-cd3952c8f738
