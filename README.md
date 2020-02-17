@@ -1,10 +1,9 @@
-# Primeiro Dojo Zup Nextel
-
+# Primeiro Meu primeiro Dojo
 - Este dojo tem como objetivo ensinar e melhorar a forma como se automatiza aplicativos android.
 
-## Configuração de ambiente
+# Configuração de ambiente
 
-# Gemfile
+## Gemfile
 - Para todo arquivo de automação em ruby é necessário um Gemfile. Arquivo que contém lista de gems que serão necessárias ao longo do projeto.
 - Para isntalar as gems listadas no Gemfile é necessário realizar os seguintes passos:
     * Abra o pront de comando no local do projeto que contém a automação
@@ -13,20 +12,20 @@
     * Desisntale o eventmachine: gem uninstall eventmachine
     * Instale novamente o eventmachine da seguinte maneira: gem isntall eventmachine --platform ruby
 
-# env.rb
+## env.rb
 - Arquivo env.rb chama as gems listadas no Gemfile com o método require
 - Starta o Appium de acordo com o "Perfil" selecionado pela linha de comando
 
-# emulators.yml
+## emulators.yml
 - Contém as capabilities do aplicativo que será testado na automação.
 - Essas capabilities são as informações necessárias para que o appium consiga achar e abrir o aplicativo no dispositivo selecionado
 
-# cucumber.yml
+## cucumber.yml
 - Contém os "Perfis" de aplicaitvos que serão usados na automação
 - Para cada perfil é definido quais pastas ou arquivos que poderão ser acessadas por aquele perfil.
 - Esse perfil é selecionado por meio da linha de comando ao startar a automação com o seguinte comando: cucumper -p <perfil>
 
-## Objetivo do DOJO
+# Objetivo do DOJO
 - Fluxo principal:
     * Criar uma nova hora de despertador
 
@@ -34,7 +33,7 @@
     * Desabilitar o despertador
     * Deletar o despertador
 
-## Regras do DOJO
+# Regras do DOJO
 - Deve ser criado um arquivo nome.feature dentro de specification que será criado o BDD com o cenário a ser automatizado
 
 - Deve ser criado um arquivo nome_screen.rb dentro da pasta screen. Este arquivo deve conter:
