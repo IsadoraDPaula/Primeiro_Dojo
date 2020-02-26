@@ -11,7 +11,7 @@
     ```
       > gem install bundle
     ```
-    3. Rode o seguinte comando para instalar as gems no Gemfile:
+    3. Rode o seguinte comando para instalar as gems do Gemfile:
     ```
       > bundle install
     ```
@@ -190,3 +190,4 @@ Neste Dojo usaremos o uiautomatorviewer.
 - https://medium.com/@dticed/o-gemfile-e-o-bundler-27195db20b04
 - https://guru-sp.github.io/tutorial_ruby/modulos-mixins.html
 - http://www.automationtestinghub.com/apppackage-and-appactivity-name/
+- https://github.com/eventmachine/eventmachine
