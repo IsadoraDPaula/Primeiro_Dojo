@@ -174,7 +174,7 @@
 ## Mapeando os elementos
 Existem duas formas de mapear os elementos. Pelo uiautomatorviewer ou pelo appium.
 Neste Dojo usaremos o uiautomatorviewer.
-1. Para startar o uiautomatorviewer tenha o android studio e o SDK instalados
+1. Para abrir o uiautomatorviewer tenha o android studio e o SDK instalados
 2. Abra o cmd e dê o seguinte comando como ilustra o exemplo abaixo
 ````
     > uiautomatorviewer
