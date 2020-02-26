@@ -172,13 +172,17 @@
     * scroll_to('texto') : desliza a tela para cima ou para baixo até encontrar aquele texto.
 
 ## Mapeando os elementos
-- Existem duas formas de mapear os elementos. Uma delas é pelo uiautomatorviewer
-- Para startar o uiautomatorviewer tenha o android studio instalado
-- Abra o pront de comando
-- Escreva uiautomatorviewer e dê enter
+Existem duas formas de mapear os elementos. Pelo uiautomatorviewer ou pelo appium.
+Neste Dojo usaremos o uiautomatorviewer.
+1. Para startar o uiautomatorviewer tenha o android studio e o SDK instalados
+2. Abra o cmd e dê o seguinte comando como ilustra o exemplo abaixo
+````
+    > uiautomatorviewer
+````
 ![uiautomatorviewer cmd](https://user-images.githubusercontent.com/32463533/74679751-769df480-519d-11ea-88e5-3f5c36c899cf.png)
-- Quando o programa se abrir esteja com o dispositivo aberto na tela que deseja mapear e clique no icone verde no canto superior esquerdo. 
-- Você obetrá um screenshot da tela mostrando as informações de cada elemento presente naquela tela
+
+4. Quando o programa se abrir esteja com o dispositivo móvel aberto na tela que deseja mapear e clique no icone verde no canto superior esquerdo. 
+5. Você obetrá um screenshot da tela mostrando as informações de cada elemento presente naquela tela
 ![uiautomatorviewer](https://user-images.githubusercontent.com/32463533/74679771-861d3d80-519d-11ea-8a73-04e11e22c58a.gif)
 
 ## Fontes
