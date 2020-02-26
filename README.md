@@ -1,4 +1,4 @@
-#Meu primeiro Dojo
+# Meu primeiro Dojo
 - Este dojo tem como objetivo ensinar e melhorar a automação de aplicativos android.
 
 # Configuração de ambiente
